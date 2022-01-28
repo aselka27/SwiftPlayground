@@ -107,7 +107,7 @@ class ViewController: UIViewController {
         startButton.snp.makeConstraints{
             $0.right.equalToSuperview().inset(40)
             $0.width.height.equalTo(80)
-            $0.bottom.equalToSuperview().inset(200)
+            $0.bottom.equalToSuperview().inset(170)
         }
         startButton.addTarget(self, action: #selector(onStartClick), for: .touchUpInside)
         
